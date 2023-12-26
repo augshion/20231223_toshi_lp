@@ -77,9 +77,13 @@
     line-height: 160%;
 }
 
-.info__area {
+.info {
     width: 100%;
-    margin: 0 25% 0
+}
+
+.info__area {
+    margin: 0 25% 0;
+    padding: 2% 0 2%;
 }
 
 .info__area-title-top {
@@ -94,9 +98,9 @@
     font-size: calc(8px + 17 * (100vw - 500px) / 1000);
 }
 
-.info__area-box li + li {
+.info__area-box li {
     border-bottom: 1px solid #a9a9a9;
-    width: 55%;
+    width: 100%;
 }
 
 .info__area-block {
@@ -117,8 +121,14 @@
     border-radius: 20px;
 }
 
+.wrap {
+    background-color: #f8f8ff;
+}
+
 .wrap__area {
     margin: 5% 10% 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
 
 .wrap__area-title {
@@ -140,12 +150,13 @@
 }
 
 .wrap__area-box {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
 .wrap__area-box-txt {
-    width: 40%;
+    width: 60%;
     line-height: 200%;
     color: #a9a9a9;
     font-size: calc(5px + 10 * (100vw - 500px) / 1000);
@@ -265,9 +276,16 @@
 
 }
 
+.blog {
+    background-color: #f8f8ff;
+}
+
 .blog__area {
     margin: 5% 10% 0;
+    padding-top: 3%;
+    padding-bottom: 5%;
 }
+
 .blog__area-title-top {
     color: #db7093db;
     font-family: segoe print;
@@ -287,8 +305,9 @@
 
 .blog__area-card {
     width: 32%;
-    border: 1px solid #dcdcdc;
-    border-radius: 10px 10px 0 0;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
 }
 
 .blog__area-card-top {
@@ -337,7 +356,7 @@
 }
 
 .blog__area-btn {
-    margin: 3% 0 0 0;
+    margin: 7% 0 0 0;
     text-align: center;
 }
 
@@ -383,6 +402,10 @@ th, td {
     padding-left: 2%;
 }
 
+th {
+    background-color: #f8f8ff;
+}
+
 .group {
     margin: 7% 0 0;
     width: 100%;
@@ -392,6 +415,7 @@ th, td {
 
 .group__area1 {
     position: relative;
+    width: 100%;
 }
 
 .group__left {
@@ -412,6 +436,7 @@ th, td {
 
 .group__area2 {
     position: relative;
+    width: 100%;
 }
 
 .group__right {
@@ -448,12 +473,12 @@ th, td {
 
 .contact__area-btn {
 margin: 10% 0 0;
-position: relative;
 }
 
 .contact__area-btn-link {
-    margin: 0 33% 0;
-    padding: 2% 10%;
+    margin: 0 auto;
+    padding: 3% 10%;
+    position: relative;
     display: block;
     width: 15%;
     background: linear-gradient(90deg, #db7093, #c71585);
@@ -467,11 +492,11 @@ position: relative;
 
 .contact__area-btn-link::before {
     content: url(../img/mailicon.svg);
-    display: block;
-    width: 3%;
+    width: 7%;
     position: absolute;
-    top: 22%;
-    left: 38%;
+    top: 33%;
+    left: 25%;
+    background-size: cover;
 }
 
 .footer {
