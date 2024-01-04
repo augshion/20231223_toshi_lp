@@ -191,6 +191,7 @@
 
 .service__area-box {
     width: 50%;
+    background-color: #c71585;
 }
 
 .service__area-box2 {
@@ -200,7 +201,6 @@
 .service__area-block1 {
     display: flex;
     flex-direction: column;
-    background-color: #c71585;
 }
 
 .service__area-block2 {
@@ -472,7 +472,7 @@ th {
 }
 
 .contact__area-btn {
-margin: 10% 0 0;
+margin: 10% 10% 10%;
 }
 
 .contact__area-btn-link {
@@ -485,17 +485,17 @@ margin: 10% 0 0;
     box-shadow: 0 8px 0px #c71585;
     text-decoration: none;
     color: #ffffff;
-    font-size: calc(10px + 10 * (100vw - 500px) / 1000);
+    font-size: calc(7px + 15 * (100vw - 500px) / 1000);
     font-weight: bold;
     border-radius: 100px;
 }
 
 .contact__area-btn-link::before {
     content: url(../img/mailicon.svg);
-    width: 7%;
+    width: 10%;
     position: absolute;
-    top: 33%;
-    left: 25%;
+    top: 26%;
+    left: 11%;
     background-size: cover;
 }
 
